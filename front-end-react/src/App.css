@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .search {
+    @apply bg-slate-50 w-72 transition-all duration-500 opacity-30 outline-none px-4 
+    rounded-full focus:bg-slate-50 focus:opacity-20 focus:w-80 text-slate-900;
+  }
+}
